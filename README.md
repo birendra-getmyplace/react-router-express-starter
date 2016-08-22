@@ -1,15 +1,10 @@
 ## Using `create-react-app` with React Router + Express.js
 
-See : https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d
+Based on : https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d
 
 ## Development
 
 Clone this repository:
-
-```sh
-git clone https://github.com/mrpatiwi/routed-react.git
-de routed-react
-```
 
 Install dependencies:
 
@@ -17,7 +12,7 @@ Install dependencies:
 npm install
 ```
 
-Start the project at [`http://localhost:9000`](http://localhost:9000).
+Start the project at [`http://localhost:3000`](http://localhost:3000).
 
 ```sh
 npm start
@@ -36,7 +31,7 @@ docker build -t routed-react .
 Finally, start a container named `routed-react-instance` at port `80`.
 
 ```sh
-docker run -p 80:9000 --name routed-react-instance routed-react
+docker run -p 80:3000 --name routed-react-instance routed-react
 ```
 
 ## Testing
