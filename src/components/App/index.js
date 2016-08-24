@@ -19,12 +19,12 @@ class App extends Component {
         <Navbar>
             <Navbar.Header>
             <Navbar.Brand>
-                <a href="#">React-Bootstrap</a>
+                <a href="#">App</a>
             </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-            <NavItem eventKey={1} href="#">Link</NavItem>
-            <NavItem eventKey={2} href="#">Link</NavItem>
+            <NavItem eventKey={1} href="/">Home</NavItem>
+            <NavItem eventKey={2} href="/about">About</NavItem>
             <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Action</MenuItem>
                 <MenuItem eventKey={3.2}>Another action</MenuItem>
@@ -34,12 +34,14 @@ class App extends Component {
             </NavDropdown>
             </Nav>
         </Navbar>
+
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>App</h2>
         </div>
+
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, edit <code>src/components/App/App.js</code> and save to reload.
         </p>
 
         <p><a href="/about">About</a></p>
