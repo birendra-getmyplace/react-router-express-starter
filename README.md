@@ -18,6 +18,12 @@ Start the project at [`http://localhost:3000`](http://localhost:3000).
 npm start
 ```
 
+##Production usage
+```
+npm run build
+node server
+```
+
 ## Running with Docker
 
 Be sure to install Docker and start a Docker-machine if necessary.
